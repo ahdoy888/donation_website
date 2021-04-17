@@ -1,3 +1,11 @@
+html,
+body {
+    height: 100px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -38,3 +46,27 @@ a, a:hover {
 .card {
     margin: 0 15px;
 }
+
+.gradient {
+    background: rgb(8,2,78);
+    background: linear-gradient(90deg, rgba(8,2,78,1) 0%, rgba(161,11,167,1) 59%, rgba(0,65,255,1) 98%);
+}
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+ .feature {
+     color: #fff;
+ }
+  .feature ul {
+      padding: left 2rem;
+      list-style-type: none;
+  }
+   .feature ul li {
+       padding-left: 2rem;
+       /*background-image: url(../img/check.svg) */
+       background-repeat: no-repeat;
+       line-height: 1.5rem;
+       margin-bottom: 1rem;
+   }

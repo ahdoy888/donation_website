@@ -18,5 +18,13 @@
     "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdoy888/donation_website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahdoy888/donation_website/issues"
+  },
+  "homepage": "https://github.com/ahdoy888/donation_website#readme"
 }
