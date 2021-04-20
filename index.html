@@ -14,6 +14,17 @@
 
     <title>Donation Web</title>
 </head>
+<style>
+    /* body {
+        color: violet;
+    } */
+    .jumbotron {
+        background: linear-gradient(90deg, rgba(8,2,78,1) 0%, rgba(161,11,167,1) 59%, rgba(0,65,255,1) 98%);
+        color: #fff;
+    }
+
+ 
+</style>
 <body>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -26,13 +37,34 @@
                     <h3>Daniel and Jacky Store</h3>
                 </div>
                 <div class="col-md-3 col-xl-3 mt-3">
-                    <!-- <  ="#reserveForm" role="button" class="btn btn-lg btn-info" >Reserve Campsite</a> -->
-                    <button class="btn btn-lg text-dark btn-light" role="button" data-toggle="modal" data-target="#reserveModal">Schedule A Donation Drop Off</button>
-                    
+                    <button class="btn btn-lg text-white btn-primary" role="button" data-toggle="modal" data-target="#reserveModal">Schedule A Donation Drop Off</button>
                 </div>
             </div>
         </div>
     </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img" 
+          height="30d" width="30" /></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#donationNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="donationNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="donate.html"><i class="fa fa-donate fa-lg"></i>Donate</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-about fa-lg"></i>About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-adress-card fa-lg"></i>Contact</a></li>
+                </ul>
+                <!--<span class="navbar-text ml-auto">
+                  <a role="button" id="loginButton">
+                    <i class="fa fa-sign-in"></i> Login
+                  </a>
+                </span> -->
+              
+            </div>
+        </div>
+        </nav>
     <div class="wrapper">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
