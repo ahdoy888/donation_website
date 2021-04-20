@@ -1,11 +1,6 @@
 $(function() {
     $("#reserveButton").click(function() {
-        $("#reserveModal").modal("show" , "keyboard");
+        $("#reserveModal").modal("show");
     })
 });
 
-/*$(function() {
-    $("#loginButton").click(function() {
-        $("#loginModal").modal("show" , "keyboard");
-    })
-}); */
