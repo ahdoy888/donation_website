@@ -25,11 +25,18 @@ header h2 {
 }
 
 .jumbotron {
+    background: linear-gradient(90deg, rgba(8,2,78,1) 0%, rgba(161,11,167,1) 59%, rgba(0,65,255,1) 98%);
     margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #ced8db, #7e4e7b, #9b1da7);
+    color: #fff;
+}
+
+
+.modal-header {
+    background: linear-gradient(90deg, rgba(8,2,78,1) 0%, rgba(161,11,167,1) 59%, rgba(0,65,255,1) 98%);
     color: white;
 }
+
+
 .btn1 {
     position:relative;
     text-align: center;
@@ -57,33 +64,28 @@ a, a:hover {
     text-decoration: none;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
 
-}
-
-.card {
-    margin: 0 15px;
-}
 
 .gradient {
     background: rgb(8,2,78);
     background: linear-gradient(90deg, rgba(8,2,78,1) 0%, rgba(161,11,167,1) 59%, rgba(0,65,255,1) 98%);
 }
+
 .page-header {
     margin-top: 4rem;
     font-size: 1.25rem;
     color: #fff;
 }
+
  .feature {
      color: #fff;
  }
+
   .feature ul {
       padding: left 2rem;
       list-style-type: none;
   }
+
    .feature ul li {
        padding-left: 2rem;
        /*background-image: url(../img/check.svg) */
@@ -91,6 +93,9 @@ a, a:hover {
        line-height: 1.5rem;
        margin-bottom: 1rem;
    }
+
    #color {
        color:#fff;
    }
+
+  
