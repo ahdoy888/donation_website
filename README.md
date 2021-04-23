@@ -20,5 +20,4 @@ Footer
 
 Bootstrap, JQuery, CSS, Scss and Javascript 
 
-[embed]donation_web.pdf[/embed
 
