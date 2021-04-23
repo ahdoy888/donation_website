@@ -4,3 +4,8 @@ $(function() {
     })
 });
 
+$(function() {
+    $("#donation").click(function() {
+        $("#donation_web").modal("show");
+    })
+});
