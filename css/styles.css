@@ -19,22 +19,15 @@ header h2 {
   }
 
 .jumbotron {
-  margin:0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #ced8db, #7e4e7b, #9b1da7);
+  background: linear-gradient(90deg, #08024e 0%, #a10ba7 59%, #0041ff 98%);
+  margin: 0;
+  color: #fff; }
+
+.modal-header {
+  background: linear-gradient(90deg, #08024e 0%, #a10ba7 59%, #0041ff 98%);
   color: white; }
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
-
-.carousel {
-  border: solid #5637dd;
-}
-
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100; }
 
 .btn1 {
   font-family: 'Bebas Neue', cursive;
@@ -51,8 +44,7 @@ header h2 {
   transition: 1.5s; }
 
 .btn1:hover {
-  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
- 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
   text-shadow: 0 5px 50px 0 #15f4ee, 0 0 50px #15f4ee; }
 
 a, a:hover {
