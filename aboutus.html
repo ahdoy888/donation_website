@@ -15,9 +15,16 @@
     <title>Donation Web</title>
 
     <style>
-     .jumbotron {
-        margin: 0;
-    }
+    /* .jumbotron {
+      margin: 0;
+    } */
+
+
+    .img1{
+        background-image: url(img/background.jpg);
+        background-color: green;
+        background-blend-mode: difference;
+      }
     </style>
 
   </head>
@@ -25,9 +32,7 @@
     <header class="jumbotron jumbotron-fluid">
       <div class="container">
           <div class="row">
-              <div class="col-4 col-sm-3 col-md-2">
-                  
-              </div>
+            
               <div class="col">
                   <h1>D & J Store</h1>
                   <h3>Daniel and Jacky Store</h3>
@@ -49,6 +54,10 @@
               <div class="modal-body">
                   <div class="container-fluid">
                       <form id="reserveForm">
+                        <div class="form-group row">
+                          <label class="col-sm-7 col-form-label">Your Name</label>
+                          <input type="text" name="text"/>
+                        </div>
                           <div class="form-group row">
                               <label class="col-sm-6 col-form-label">Number of Bags</label>
                                   <div class="col">
@@ -98,9 +107,10 @@
           </div>
       </div>
     </nav>
-    <div class="container my-4">
+    <section class="img1">
+    <div class="container">
       <div class="row row-content">
-          <div class="col-md-8 mx-auto">
+          <div class="col-md-8 mx-auto my-4">
               <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                       <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -143,6 +153,9 @@
               </div>
           </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,208C384,235,480,245,576,240C672,235,768,213,864,181.3C960,149,1056,107,1152,117.3C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
     <section class="my-4">
       <div class="container my-4">
         <div class="row justify-content-start">

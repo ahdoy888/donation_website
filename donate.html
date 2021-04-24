@@ -18,14 +18,22 @@
   </head>
 
     <style>
-       .jumbotron {
+       /* .jumbotron {
         margin: 0;
-    }
+    } */
 
-    .btn2:hover {
+    .btn2:focus {
     box-shadow: 0 5px 50px 0 #a10ba7 inset, 0 5px 50px 0 #a10ba7,
                 0 5px 50px 0 #a10ba7 inset, 0 5px 50px 0 #a10ba7 ;
     text-shadow: 0 5px 50px 0 #a10ba7, 0 0 50px #a10ba7;
+    color: white;
+    }
+
+    .btn3:focus {
+    box-shadow: 0 5px 50px 0 #615fe0 inset, 0 5px 50px 0 #615fe0,
+                0 5px 50px 0 #615fe0 inset, 0 5px 50px 0 #615fe0 ;
+    text-shadow: 0 5px 50px 0 #615fe0, 0 0 50px #615fe0;
+    color: white;
 }
   
     </style>
@@ -58,6 +66,10 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <form id="reserveForm">
+                          <div class="form-group row">
+                            <label class="col-sm-7 col-form-label">Your Name</label>
+                            <input type="text" name="text"/>
+                          </div>
                             <div class="form-group row">
                                 <label class="col-sm-6 col-form-label">Number of Items</label>
                                     <div class="col">
@@ -140,8 +152,8 @@
       </div>
       <div class="modal-body">
         <h3>Your Donation </h3>
-        <button type="button" class="btn btn-lg btn-secondary">One-Time</button>
-        <button type="button" class="btn btn-lg btn-secondary">Monthly</button>
+        <button type="button" class="btn3 btn btn-lg btn-outline-secondary">One-Time</button>
+        <button type="button" class="btn3 btn btn-lg btn-outline-secondary">Monthly</button>
         <br />
         <br />
         <button type="button" class="btn2 btn btn-lg btn-outline-secondary">$10</button>
